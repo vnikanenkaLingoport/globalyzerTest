@@ -9,7 +9,7 @@ public class LocalizationErrors {
 
         // 2. Locale-Sensitive Methods
         double price = 12345.67;
-        String formattedPrice = String.format("Price: $%.2f", price); 
+
         System.out.println(formattedPrice);
 
         // 3. General Patterns
