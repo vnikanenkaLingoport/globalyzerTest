@@ -20,6 +20,10 @@ public class LocalizationErrors {
         String configFilePath = "C:\\config\\app.properties"; 
         System.out.println("Config file path: " + configFilePath);
 
+        String text = "Hello";
+        byte[] bytes = text.getBytes(Charset.forName("ISO-8859-1"));
+        String decodedText = new String(bytes, Charset.forName("UTF-8"))
+
         // 1. Embedded Strings 
         String farewell = "Goodbye!"; 
         System.out.println(farewell);
